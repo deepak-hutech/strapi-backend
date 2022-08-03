@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hero.hero"
+    },
+    "Cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.cards"
+    },
+    "HeroTwo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hero.hero"
+    },
+    "CardTwo": {
+      "displayName": "CardTwo",
+      "type": "component",
+      "repeatable": true,
+      "component": "cardtwo.card-two"
+    },
+    "heroThree": {
+      "displayName": "heroThree",
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero-three"
+    }
+  }
+}

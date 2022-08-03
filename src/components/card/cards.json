@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_card_cards",
+  "info": {
+    "displayName": "Cards",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "text"
+    },
+    "Paragraph": {
+      "type": "text"
+    }
+  }
+}

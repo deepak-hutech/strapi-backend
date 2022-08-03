@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_cardtwo_card_twos",
+  "info": {
+    "displayName": "CardTwo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "SubHeading": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "Explore": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}
